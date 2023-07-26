@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Movies from './components/Movies';
 
   
 function App() {
 
-  const movies = [
+  const Movies = [
     {
       name: "Transformers",
       year: "2007",
@@ -46,7 +45,9 @@ function App() {
 
   return (
     <div className="App">
-
+        <h1>Movies</h1>
+        <Movies/>
+      
     </div>
   );
 }
