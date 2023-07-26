@@ -4,7 +4,7 @@ import Movies from './components/Movies';
   
 function App() {
 
-  const Movies = [
+  const movies = [
     {
       name: "Transformers",
       year: "2007",
@@ -46,7 +46,7 @@ function App() {
   return (
     <div className="App">
         <h1>Movies</h1>
-        <Movies/>
+        <Movies movies={movies.name}/>
       
     </div>
   );
